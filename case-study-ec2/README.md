@@ -14,4 +14,4 @@ You work for XYZ Corporation. Your corporation is working on an application and 
 
 # Architecture diagram can be found/seen using architecture-diagram.png
 
-[Architecture Diagram of the Scenario](architecture-diagram.png)
+![Architecture Diagram of the Scenario](architecture-diagram.png)

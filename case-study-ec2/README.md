@@ -12,6 +12,6 @@ You work for XYZ Corporation. Your corporation is working on an application and 
 
 > Solutions can be found in Images
 
-# Architecture diagram can be found/seen using architecture-diagram.png
+## Architecture diagram:
 
 ![Architecture Diagram of the Scenario](architecture-diagram.png)

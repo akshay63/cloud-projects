@@ -13,7 +13,7 @@ The company wants high availability on this product, therefore wants Auto Scalin
 
 ## Tasks Performed
 
-1. ![Created EC2 instance(Ubuntu)](images/Pasted image 20240323193833.png)
+1. Created EC2 instance(Ubuntu)![[/images/Pasted image 20240323193833.png]]
 2. Created RDS instance(with default gateway (connected to internet) and in same AZ as EC2 instance)![](images/Pasted image 20240323195411.png)
 3. Create Internet Gateway -> Make Internet flow through VPC (if you get problem in connecting the instance).
 4. Allowed all traffic to the Security Groups to resolve connection issues with DB instance![[Assignments and Projects/12. AWS Projects/project1/images/Pasted image 20240323203643.png]]

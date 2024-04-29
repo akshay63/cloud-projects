@@ -26,8 +26,8 @@ The company wants high availability on this product, therefore wants Auto Scalin
 11. First Check all the databases by listing them using: `show databases;`![](images/Pasted-image-20240323203839.png)
 12. Select `intel` database using command: `use intel;`
 13. Created table: `create table data(firstname varchar(15), email varchar(25));`
-14. To view what data we have in table: `select * from data;`![](images/Pasted-image-2024032320424.png)![](images/Pasted-image-2024323204052.png)
-15. Created Autoscaling for the purpose of High Availability. for that first step is creating image from ec2. ![](images/Pasted-image-2024323204516.png)
+14. To view what data we have in table: `select * from data;`![](images/Pasted-image-20240323204242.png)![](images/Pasted-image-20240323204052.png)
+15. Created Autoscaling for the purpose of High Availability. for that first step is creating image from ec2. ![](images/Pasted-image-20240323204516.png)
 16. Created Launch Template![](images/Pasted-image-2024323204702.png)
-17. Successfully Created ASG without LB to just create VMs:![](images/Pasted-image-2024323204909.png)
-18. Reference:![](images/Pasted-image-2024323205041.png)
+17. Successfully Created ASG without LB to just create VMs:![](images/Pasted-image-20240323204909.png)
+18. Reference:![](images/Pasted-image-20240323205041.png)

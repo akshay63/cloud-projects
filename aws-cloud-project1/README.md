@@ -15,9 +15,9 @@ The company wants high availability on this product, therefore wants Auto Scalin
 
 1. Created EC2 instance(Ubuntu)![](images/Pasted-image-20240323193833.png)
 
-2. Created RDS instance(with default gateway (connected to internet) and in same AZ as EC2 instance)![](images/Pasted image 20240323195411.png)
+2. Created RDS instance(with default gateway (connected to internet) and in same AZ as EC2 instance)![](images/Pasted-image-20240323195411.png)
 3. Create Internet Gateway -> Make Internet flow through VPC (if you get problem in connecting the instance).
-4. Allowed all traffic to the Security Groups to resolve connection issues with DB instance![[Assignments and Projects/12. AWS Projects/project1/images/Pasted image 20240323203643.png]]
+4. Allowed all traffic to the Security Groups to resolve connection issues with DB instance![[/images/Pasted-image-20240323203643.png]]
 5. Installed Webserver(httpd(centos) or apache2(ubuntu)) on EC2 and change directory to `/var/www/html` ![[Assignments and Projects/12. AWS Projects/project1/images/Pasted image 20240323200821.png]]
 6. Removed index.html and add index.php and copied the given the code into it. ![[Assignments and Projects/12. AWS Projects/project1/images/Pasted image 20240323201307.png]]
 7. Ran this command: `sudo add-apt-repository -y ppa:ondrej/php` -> We're adding a repo for a particular php file (index.php). To establish a connection, we need to add this repo for our webpage to work![[Assignments and Projects/12. AWS Projects/project1/images/Pasted image 20240323201405.png]]
